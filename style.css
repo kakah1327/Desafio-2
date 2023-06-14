@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lily Script One', cursive;
   }
   
   body {
@@ -11,85 +10,41 @@
 
   header{
     background-color: #1E1E1E;
-    height: 200px;
+    font-family: 'Lily Script One', cursive;
   }
   
-  ul {
-    text-align: center;
-    padding: 20px 10px 0 0;
-  }
-
   a {
-    display: inline-block;
-    margin: 10px;
-    font-size: 20px;
     color: white;
+    text-decoration: none;
   }
-  
-  .logo {
-    height: 450px;
-    width: 1500px;
-    background-size: contain;
+
+  nav {
+      text-align: center;
 
   }
+  li {
+    display: inline-block;
+    padding: 40px;
+  }
+
+  .logo {
+    background-image: url("fotos/disney-banner.png");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+  }
+
   main {
     background-color: white;
-  }
-
-  figure {
-    display: inline-block;
-  }
-
-  .encanto div {
-    width: 353px;
-    height: 513px;
-    border-radius: 61px
-
-  }
-
-  .raya div {
-    width: 353px;
-    height: 523px;
-    border-radius: 61px;
-
-  }
-
-  .buzz div {
-    width: 353px;
-    height: 518px;
-    display: inline-block;
-
-  }
-
-  .toystory div {
-    width: 353px;
-    height: 513px;
-    border-radius: 61px;
-;
-
-  }
-
-  .urso div {
-    width: 353px;
-    height: 513px;
-    border-radius: 61px;
-
-  }
-
-  .luca div {
-    width: 353px;
-    height: 513px;
-    border-radius: 61px;
-
+    text-align: center;
   }
 
   footer {
-    box-sizing: border-box;
-    text-align: center;
-    padding: 40px 0 0 20px;
-    height: 150px;
-    font-size: 20px;
-    color: white;
     background: #1E1E1E;
+    font-family: 'Lily Script One', cursive;
+  }
 
+  p{
+    color: white;
+    text-align: center;
   }
